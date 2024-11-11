@@ -1,0 +1,62 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+h1 {
+  color: #ff6600;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#joke-container {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  width: 150px;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff3300;
+  transform: scale(1.1);
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons button {
+  margin: 0 10px;
+}
