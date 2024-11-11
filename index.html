@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Discovery App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Discover New Music</h1>
-  </header>
-
-  <main>
-    <div class="search-container">
-      <input type="text" id="artist-input" placeholder="Enter artist or track name" />
-      <button onclick="getMusicRecommendations()">Search</button>
+    <div id="app-container">
+        <h1>Joke Time!</h1>
+        <div id="joke-container">
+            <p id="joke-text">Click "Next Joke" to get a random joke!</p>
+        </div>
+        <div id="buttons">
+            <button onclick="previousJoke()">Previous Joke</button>
+            <button onclick="getJoke()">Next Joke</button>
+        </div>
     </div>
-    
-    <div id="results" class="results-container"></div>
-  </main>
-
+    <script src="script.js"></script>
 </body>
 </html>
