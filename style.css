@@ -16,7 +16,7 @@ body {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   width: 350px;
   position: relative;
-  z-index: 5; /* Make sure the app container stays on top */
+  z-index: 5;
 }
 
 h1 {
